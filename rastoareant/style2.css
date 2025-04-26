@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hr-style {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.section-title h3 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+/* header design starts here  */
+header {
+  background-image: url(photoes/photo5.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-container {
+  height: 100vh;
+}
+/* navbar design starts here  */
+.navbar {
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand h2 {
+  font-family: "Handlee", cursive;
+  font-weight: bolder;
+}
+.navbar-icon {
+  color: white;
+}
+.nav-link {
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  background-color: #2980b9;
+  color: white;
+  transform: scale(1.1);
+}
+/* navbar design ends here  */
+
+/* banner section starts here  */
+.banner-container .banner-content h1 {
+  font-size: 3.5rem;
+  background-color: #0765bdcc;
+  padding: 10px 20px;
+  font-family: cursive;
+  border-radius: 5px;
+}
+
+/* banner section ends here  */
+
+/* features starts here  */
+#features {
+  padding: 5% 10%;
+  background-image: url(https://img.freepik.com/free-photo/raindrops-glass_1268-28250.jpg?semt=ais_hybrid);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.features-col {
+  border: 3px solid #ff02c0;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  border-top-left-radius: 100% 5rem;
+  border-bottom-right-radius: 5rem 100%;
+  transition: 0.4s;
+  background: rgba(255, 255, 255, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: 0.4s;
+}
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+.icon-style {
+  background-color: #bb0aac;
+  padding: 15px;
+  margin: 5px auto;
+  color: white;
+}
+/* features ends here  */
+
+/* about-me sectin starts here  */
+#about-me {
+  padding: 4% 10%;
+  background: hsl(248, 19%, 24%);
+
+  color: #d7c49eff;
+}
+#about-me a {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+#about-me a p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+/* achievedesc starts here  */
+.ahieve-desc span {
+  font-weight: 700;
+}
+/* about-me sectin ends here  */
+
+/* food menu section starts here  */
+#tutorials {
+  padding: 5% 10%;
+  background-image: url(https://img.freepik.com/free-vector/background-wave-minimalist-modern-style_483537-5220.jpg);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+.card-text p .ratting {
+  color: blue;
+}
+.card-text p .ratting-icon-size {
+  font-size: 1rem;
+}
+.card-img-bottom {
+  border-top-left-radius: 5rem 50%;
+  /* border-top-right-radius: 2rem 30%; */
+}
+.card {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(0px);
+  transition: 0.4s;
+
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 2rem 0%;
+}
+.card .card-img-bottom {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.card:hover {
+  transform: scale(1.09);
+}
+
+/* food menu section ends here  */
+
+/* feedback section starts here  */
+#feedback {
+  padding: 5%;
+  background: #343148;
+  color: #d7c49eff;
+}
+.carousel-img {
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 7% 15%;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+/* feedback section ends here  */
+
+/* <!-- contact section starts here  --> */
+#contact {
+  padding: 5% 10%;
+  background: #343148;
+  color: #d7c49eff;
+}
+.form-group label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* <!-- contact section ends here  --> */
+
+/* footer starts here  */
+footer {
+  background-color: black;
+  padding: 3% 10%;
+  color: white;
+}
+footer p {
+  font-style: italic;
+}
+footer a i {
+  color: white;
+  margin-right: 7px;
+  margin-left: 5px;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+footer a i:hover {
+  transform: scale(1.3);
+  transform: translateY(-5px);
+  color: #00ff55;
+}
+/* footer ends here  */
+
+/* media quary  */
+@media screen and (max-width: 768px) {
+  #banner h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-indicators {
+    bottom: -20px;
+  }
+  .features-col {
+    background: rgba(186, 186, 186, 0.67);
+  }
+}
